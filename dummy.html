@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Sidebar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            font-family: calibri, sans-serif;
+        }
+        .topbar {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+        .controls button, .controls input {
+            padding: 8px 12px;
+            font-size: 18px;
+        }
+        .main {
+            display: flex;
+            flex-grow: 1;
+        }
+        .sidebar {
+            width: 200px;
+            background: #333;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebar button {
+            width: 100%;
+            padding: 15px;
+            text-align: left;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .sidebar button:hover {
+            background: #555;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <span><b>Welcome to SPARTAN-ST Interactive Electronic Training  Manual</b></span>
+        <div class="controls">
+            <input type="text" id="searchBox" placeholder="Search...">
+            <button onclick="searchContent()">Search</button>
+            <button onclick="printPage()">Print</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <button onclick="loadPage('file:///H:/cam_ietm/Module%2001/Module%2001/SPARTAN.htm')">Home</button>
+           <button onclick="loadPage('file:///H:/cam_ietm/Safety.html')">Safety Instructions</button>
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan/New%20folder/Module%201/Table%20of%20Contents.html')">Table of Contents</button>
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan/New%20folder/Module%202/System%20Overview.html')">System Overview</button>
+              <button onclick="loadPage('file:///H:/cam_ietm/System%20Setup/System%20Setup.html.html')">System Setup</button>
+
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan%20New/Spartan/New%20folder/Module%203/installation.html')">Installation</button>
+
+            <button onclick="loadPage('file:///H:/cam_ietm/Module%204%20edited1/Module%204%20edited/Module%204%20edited/Module%204/Operating%20Instruction.html')">Operating Instructions</button>
+
+
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan/New%20folder/Module%205/Maintenance%20Instructions.htm')">Maintenance Instructions</button>
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan/New%20folder/Module%206/Storage%20Instructions.html')">Storage Instructions</button>
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan/New%20folder/Module%207/Troubleshooting.html')">Troubleshooting</button>
+            <button onclick="loadPage('file:///H:/cam_ietm/Spartan/New%20folder/Module%208/ZEROING%20Quick%20Start%20Guide.htm')">Zeroing Quick Start Guide</button>
+            
+        </div>
+        <div class="content">
+            <iframe id="iframe" src="file:///H:/cam_ietm/Module%2001/Module%2001/SPARTAN.htm"></iframe>
+        </div>
+    </div>
+    <script>
+        function loadPage(page) {
+            document.getElementById('iframe').src = page;
+        }
+
+        function printPage() {
+            let iframe = document.getElementById('iframe').contentWindow.document;
+            let printWindow = window.open('', '_blank');
+            printWindow.document.write('<html><head><title>Print</title></head><body>');
+            printWindow.document.write(iframe.body.innerHTML);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.focus();
+            setTimeout(() => {
+                printWindow.print();
+                printWindow.close();
+            }, 500);
+        }
+        function searchContent() {
+            let query = document.getElementById('searchBox').value.toLowerCase();
+            let iframe = document.getElementById('iframe').contentWindow.document;
+            let bodyText = iframe.body.innerText.toLowerCase();
+            if (bodyText.includes(query)) {
+                alert('Search term found in the content.');
+            } else {
+                alert('Search term not found.');
+            }
+        }
+    </script>
+</body>
+</html>

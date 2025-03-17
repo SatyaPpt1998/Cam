@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Stylesheet-DESCRIPT.fos" type="text/x-fosi" media="editor" alternate="yes"?>
+<!--Arbortext, Inc., 1988-2020, v.4002-->
+<!DOCTYPE dmodule [
+<!ENTITY Fig23-PNGC-SEC5 SYSTEM "Fig23-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig24-PNGC-SEC5 SYSTEM "Fig24-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig25-PNGC-SEC5 SYSTEM "Fig25-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig26-PNGC-SEC5 SYSTEM "Fig26-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig27-PNGC-SEC5 SYSTEM "Fig27-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig28-PNGC-SEC5 SYSTEM "Fig28-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig29-PNGC-SEC5 SYSTEM "Fig29-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig29-1-PNGC-SEC5 SYSTEM "Fig29-1-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig30-PNGC-SEC5 SYSTEM "Fig30-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig31-PNGC-SEC5 SYSTEM "Fig31-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig32-PNGC-SEC5 SYSTEM "Fig32-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig33-PNGC-SEC5 SYSTEM "Fig33-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig34-PNGC-SEC5 SYSTEM "Fig34-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig35-PNGC-SEC5 SYSTEM "Fig35-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig36-PNGC-SEC5 SYSTEM "Fig36-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig37-PNGC-SEC5 SYSTEM "Fig37-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig38-PNGC-SEC5 SYSTEM "Fig38-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig39-PNGC-SEC5 SYSTEM "Fig39-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig40-PNGC-SEC5 SYSTEM "Fig40-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig41-PNGC-SEC5 SYSTEM "Fig41-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig42-PNGC-SEC5 SYSTEM "Fig42-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig43-PNGC-SEC5 SYSTEM "Fig43-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig44-PNGC-SEC5 SYSTEM "Fig44-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY fig1 SYSTEM "fig1.tiff" NDATA cgm>
+<!ENTITY fig2 SYSTEM "fig2.tiff" NDATA cgm>
+<!ENTITY fig3 SYSTEM "fig3.tiff" NDATA cgm>
+<!ENTITY fig4 SYSTEM "fig4.tiff" NDATA cgm>
+<!ENTITY fig5 SYSTEM "fig5.tiff" NDATA cgm>
+<!ENTITY fig6 SYSTEM "fig6.tiff" NDATA cgm>
+<!ENTITY fig7 SYSTEM "fig7.tiff" NDATA cgm>
+<!ENTITY fig8 SYSTEM "fig8.tiff" NDATA cgm>
+<!ENTITY fig9 SYSTEM "fig9.tiff" NDATA cgm>
+<!ENTITY fig10 SYSTEM "fig10.tiff" NDATA cgm>
+<!ENTITY fig11 SYSTEM "fig11.tiff" NDATA cgm>
+<!ENTITY fig12 SYSTEM "fig12.tiff" NDATA cgm>
+<!ENTITY fig13 SYSTEM "fig13.tiff" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" "">
+]>
+<?Pub Inc?>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+<identAndStatusSection>
+<dmAddress><dmIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A"
+infoCode="000" infoCodeVariant="0" itemLocationCode="A"
+modelIdentCode="SPARTAN" subSubSystemCode="0" subSystemCode="0"
+systemCode="00" systemDiffCode="AAA"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="000"/></dmIdent><dmAddressItems>
+<issueDate day="08" month="03" year="2025"/>
+<dmTitle>
+<techName>SPARTAN-ST<?Pub _newline?></techName>
+<infoName>ZEROING Quick Start Guide</infoName>
+</dmTitle></dmAddressItems></dmAddress>
+<dmStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany></responsiblePartnerCompany>
+<originator></originator>
+<applic><assert applicPropertyType="prodattr"
+applicPropertyValues="SPARTAN"></assert></applic>
+<brexDmRef><dmRef><dmRefIdent><dmCode assyCode="00" disassyCode="05"
+disassyCodeVariant="00" infoCode="000" infoCodeVariant="A"
+itemLocationCode="A" modelIdentCode="SPARTAN" subSubSystemCode="0"
+subSystemCode="0" systemCode="00" systemDiffCode="AAA"/></dmRefIdent>
+</dmRef></brexDmRef><?Pub Caret 3?>
+<qualityAssurance><firstVerification verificationType="ttandoo"/>
+</qualityAssurance></dmStatus>
+</identAndStatusSection>
+<content>
+<description><levelledPara><title>2-step weapon and thermal sight
+check before zeroing</title>
+<para>#1 Visual and Physical Inspection<randomList>
+<listItem><para>Before mounting the thermal sight on the weapon, please
+check the accuracy of the weapon. </para>
+</listItem>
+<listItem><para>Ensure weapon mount adapter is tightly secured. •</para>
+</listItem>
+<listItem><para>Power On the thermal sight and check the thermal image
+on the display.</para>
+</listItem>
+<listItem><para>Ensure that the control buttons are responsive.</para>
+</listItem>
+</randomList></para>
+<?Pub _newline?>
+<?Pub _newline?>
+<para>#2 Cycle of Operation and Safety Inspection<sequentialList>
+<listItem><para>Stand at 25m from zeroing target. .</para>
+</listItem>
+<listItem><para>Check for MPI (Mean Point of Impact).</para>
+</listItem>
+<listItem><para>Ensure weapon produces a grouping as per your group
+size.</para>
+</listItem>
+<listItem><para>Move to 50m, 75m and 100m respectively from zeroing
+target and repeat steps 2 and 3. </para>
+</listItem>
+<listItem><para>At 50m, 75m and 100m, the weapon should produce a
+grouping as per your group size.</para>
+</listItem>
+</sequentialList></para>
+<?Pub _newline?>
+<para>If weapon passes the 2-step verification test, then mount the
+thermal sight and begin zeroing procedure.</para>
+<para>Zeroing is performed by moving the reticle towards the Mean
+Point of Impact.</para>
+<?Pub _newline?>
+<para>The steps for zeroing are listed below:</para>
+<para>1. Note the starting windage (H) and elevation (V) position
+of the reticle.</para>
+<para>2. Stand at a distance of 25 / 50 / 75 / 100 Yards or Meters
+from the target. 3. Select one of the cross reticles to zero the sight
+to the weapon. 4. Aim at the target (Aiming Point or AP) and fire
+shots until you get an appropriate group size of the weapon.</para>
+<para>3. Select one of the cross reticles to zero the sight to the
+weapon. </para>
+<para>4. Aim at the target (Aiming Point or AP) and fire shots until
+you get an appropriate group size of the weapon.</para>
+<figure><title>Aiming Point or AP</title>
+<graphic applicRefId="Fig23-PNGC-SEC5" infoEntityIdent="Fig23-PNGC-SEC5">
+</graphic>
+</figure>
+<?Pub _newline?>
+<para>5. Plot the center of the bullet spray (Mean Point of Impact
+or MPI) on the target..</para>
+<para>6. Measure the vertical and horizontal distance (in inches or
+centimeters) of the MPI from the AP.</para>
+<para> 7. Refer to the zeroing table to find the values for reticle
+adjustment</para>
+<?Pub _newline?>
+<figure><title> zeroing table </title>
+<graphic applicRefId="Fig24-PNGC-SEC5" infoEntityIdent="Fig24-PNGC-SEC5">
+</graphic>
+</figure>
+<?Pub _newline?>
+<para> 8. Move the reticle towards the MPI. Follow the below formula
+to correct windage and elevation:</para>
+<?Pub _newline?>
+<figure><title>windage and elevation</title>
+<graphic applicRefId="Fig25-PNGC-SEC5" infoEntityIdent="Fig25-PNGC-SEC5">
+</graphic>
+</figure>
+<?Pub _newline?>
+<?Pub _newline?>
+<figure><title>MOA 1.7 — INCHES</title>
+<graphic applicRefId="Fig26-PNGC-SEC5" infoEntityIdent="Fig26-PNGC-SEC5">
+</graphic>
+</figure>
+<?Pub _newline?>
+<?Pub _newline?>
+<figure><title>MOA 1.7 — CENTIMETERS</title>
+<graphic applicRefId="Fig27-PNGC-SEC5" infoEntityIdent="Fig27-PNGC-SEC5">
+</graphic>
+</figure>
+<?Pub _newline?>
+<?Pub _newline?>
+<figure><title> MOA 1.1 — YARDS</title>
+<graphic applicRefId="Fig28-PNGC-SEC5" infoEntityIdent="Fig28-PNGC-SEC5">
+</graphic>
+</figure>
+<?Pub _newline?>
+<?Pub _newline?>
+<figure><title>MOA 1.1 — CENTIMETERS</title>
+<graphic applicRefId="Fig29-PNGC-SEC5" infoEntityIdent="Fig29-PNGC-SEC5">
+</graphic>
+</figure>
+</levelledPara></description>
+</content>
+</dmodule>

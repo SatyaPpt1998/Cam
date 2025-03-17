@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+
+	
+    <title>Welcome</title>
+    <style>
+        body {
+
+            font-family: calibri light;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #45a049;      
+  }
+		.top-right-links {
+			position: absolute;
+					top: 50px;
+				right: 100px;
+				display: flex;
+				flex-direction: row; /* Stack the links vertically */
+				gap: 10px; /* Space between links */
+}
+
+		   .footer-info p {
+			font-size: 15px;
+			margin-top: 0px;
+            text-align: center;
+			text-size:5px;
+			}
+
+
+/* Style for each link */
+         .link {
+          color: blue;
+          font-size: 10px;
+          text-decoration: none;
+}
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+         .menu > li {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu a {
+            color: black;
+            text-decoration: none;
+            padding: 14px 5px;
+            display: block;
+            background-color: #f4f4f9;
+        }
+
+        .menu a:hover {
+            background-color: #f4f4f9;
+        }
+
+        /* Submenu is hidden by default */
+        .submenu {
+            display: none;
+            position: absolute;
+			text-align : left ;
+            top: 100%;
+            left: 0;
+            background-color: #f4f4f9;
+            min-width: 200px;
+        }
+      .submenu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+			text-align : left ;
+            background-color: #f4f4f9;
+        }
+
+        .submenu a:hover {
+            background-color: #666;
+        }
+		.submenu1 {
+            display: none;
+            position: absolute;
+			text-align : left ;
+            top: 100%;
+            left: 0;
+            background-color: #f4f4f9;
+            min-width: 200px;
+        }
+
+        .submenu1 a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+			text-align : left ;
+            background-color: #f4f4f9;
+
+        }
+
+        .submenu1 a:hover {
+            background-color: #666;        }
+
+		#toggleLink {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+<div>
+
+   <font color="black"  face="calibri bold" size="6">WELCOME TO SPARTAN-ST RIFLE SIGHT </font>
+
+	</div>
+<div class="top-right-links">
+
+	 
+	 <ul class="menu">
+        <li>
+            <a href="javascript:void(0);" onclick="toggleMenu1()"> <img src="H:\cam_ietm\print.png" alt="Print" style="width: 70%; height: 70%;"></a>
+			<ul class="submenu1">
+                <li><a href="H:\cam_ietm\PDF" target="_blank">Print Current Module</a></li>
+
+	<li><a href="H:\cam_ietm\PDF/" target="_blank">Print Identified Module</a></li>
+
+            </ul>
+        </li>
+			
+	 </ul>
+
+    <ul class="menu">
+		
+      <a href="https://www.google.com" class="link"><img src="H:\cam_ietm\search.png" alt="search" style="width: 70%; height: 70%;"></a>
+				</ul>  
+		    <ul class="menu">
+
+		<a href="H://cam_ietm/T welcome.html" class="link"><img src="H:\cam_ietm\reload.png" alt="reload" style="width: 60%; height: 60%;"></a>
+				</ul>  	
+
+    <script>
+        function toggleMenu() {
+            // Get the submenu element
+            var submenu = document.querySelector('.submenu');
+
+            // Toggle the display property of the submenu
+            if (submenu.style.display === 'block') {
+                submenu.style.display = 'none';
+            } else {
+                submenu.style.display = 'block';
+            }
+        }
+		
+		 function toggleMenu1() {
+            // Get the submenu element
+            var submenu1 = document.querySelector('.submenu1');
+
+            // Toggle the display property of the submenu
+            if (submenu1.style.display === 'block') {
+                submenu1.style.display = 'none';
+            } else {
+                submenu1.style.display = 'block';
+            }
+        }
+
+						
+    </script>
+    </div>
+	
+	    <style>
+        /* Style the body to provide some padding and prevent overlap */
+        body {
+            margin: 0;
+            font-family: calibri light;
+           font-weight: bold
+        }
+
+        /* Style the sidebar */
+        .sidebar {
+            height: 100%; /* Full-height */
+            width: 250px; /* Sidebar width */
+            position: fixed; /* Fixed position */
+            top: 0;
+            left: 0;
+            background-color: #333; /* Dark background color */
+            padding-top: 20px;
+            padding-left: 10px;
+            color: white;
+        }
+
+        /* Sidebar links */
+        .sidebar a {
+            padding: 12px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold
+            color: white;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Change color on hover */
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        /* Content section to avoid overlap with sidebar */
+        .content {
+            margin-left: 260px; /* Offset content to the right of the sidebar */
+            padding: 20px;
+        }
+		
+		
+    </style>
+	
+</head>
+<body>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+
+        <a href="#"><font color="white">Home</a>
+
+       <a href="file:///H:/cam_ietm/Spartan%20New/Spartan/New%20folder/Safety/Safety.html" target="_blank"><font color="white">Safety Instructions</a>
+       
+        <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%201/Table%20of%20Contents.html" target="_blank"><font color="white">Table of Contents</a>	
+
+         <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%202/System%20Overview.html" align="left"><font color="white">1. System Overview</font></a>
+
+           <a href="file:///H:/cam_ietm/System%20Setup/System%20Setup.html.html" align="left"><font color="white">2. System Setup</font></a>
+
+          <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%203/System%20Installations.html"  target="_blank"align="left"><font color="white">3. Installation</font></a>
+
+        <a href="file:///H:/cam_ietm/Spartan%20New/Spartan/New%20folder/Module%204/Operating%20Instruction.htmlno"  target="_blank"align="left"><font color="white">4. Operating Instructions</font></a>
+     
+       <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%205/Maintenance%20Instructions.htm"  target="_blank"align="left"><font color="white">5. Maintenance Instructions</font></a>
+
+        <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%206/Storage%20Instructions.html"  target="_blank"align="left"><font color="white">6. Storage Instructions</font></a>
+
+        <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%207/Troubleshooting.html"  target="_blank"align="left"><font color="white">7. Troubleshooting</font></a>
+           
+      <a href="file:///H:/cam_ietm/Spartan/New%20folder/Module%208/ZEROING%20Quick%20Start%20Guide.htm"  target="_blank"align="left"><font color="white">8. Zeroing Quick Start Guide</font></a>
+           
+    
+    </div>
+<p>
+    <!-- Main Content Area -->
+    <div class="content">
+	    <img src="TB.png" alt="CAM" width="500" height="350" align="left">
+
+</p>
+
+        <p><br><br><br><br><font size="6" face="calibri light"><b>An Interactive Electronic Technical Manual (IETM) for Spartan-ST Rifle Sight by <br>Tonbo Imaging<font>
+    	</div>
+
+</body>
+</body>
+</html>

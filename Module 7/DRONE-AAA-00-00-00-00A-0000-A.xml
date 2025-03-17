@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Stylesheet-DESCRIPT.fos" type="text/x-fosi" media="editor" alternate="yes"?>
+<!--Arbortext, Inc., 1988-2020, v.4002-->
+<!DOCTYPE dmodule [
+<!ENTITY Fig23-PNGC-SEC5 SYSTEM "Fig23-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig24-PNGC-SEC5 SYSTEM "Fig24-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig25-PNGC-SEC5 SYSTEM "Fig25-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig26-PNGC-SEC5 SYSTEM "Fig26-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig27-PNGC-SEC5 SYSTEM "Fig27-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig28-PNGC-SEC5 SYSTEM "Fig28-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig29-PNGC-SEC5 SYSTEM "Fig29-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig29-1-PNGC-SEC5 SYSTEM "Fig29-1-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig30-PNGC-SEC5 SYSTEM "Fig30-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig31-PNGC-SEC5 SYSTEM "Fig31-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig32-PNGC-SEC5 SYSTEM "Fig32-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig33-PNGC-SEC5 SYSTEM "Fig33-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig34-PNGC-SEC5 SYSTEM "Fig34-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig35-PNGC-SEC5 SYSTEM "Fig35-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig36-PNGC-SEC5 SYSTEM "Fig36-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig37-PNGC-SEC5 SYSTEM "Fig37-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig38-PNGC-SEC5 SYSTEM "Fig38-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig39-PNGC-SEC5 SYSTEM "Fig39-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig40-PNGC-SEC5 SYSTEM "Fig40-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig41-PNGC-SEC5 SYSTEM "Fig41-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig42-PNGC-SEC5 SYSTEM "Fig42-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig43-PNGC-SEC5 SYSTEM "Fig43-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig44-PNGC-SEC5 SYSTEM "Fig44-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY fig1 SYSTEM "fig1.tiff" NDATA cgm>
+<!ENTITY fig2 SYSTEM "fig2.tiff" NDATA cgm>
+<!ENTITY fig3 SYSTEM "fig3.tiff" NDATA cgm>
+<!ENTITY fig4 SYSTEM "fig4.tiff" NDATA cgm>
+<!ENTITY fig5 SYSTEM "fig5.tiff" NDATA cgm>
+<!ENTITY fig6 SYSTEM "fig6.tiff" NDATA cgm>
+<!ENTITY fig7 SYSTEM "fig7.tiff" NDATA cgm>
+<!ENTITY fig8 SYSTEM "fig8.tiff" NDATA cgm>
+<!ENTITY fig9 SYSTEM "fig9.tiff" NDATA cgm>
+<!ENTITY fig10 SYSTEM "fig10.tiff" NDATA cgm>
+<!ENTITY fig11 SYSTEM "fig11.tiff" NDATA cgm>
+<!ENTITY fig12 SYSTEM "fig12.tiff" NDATA cgm>
+<!ENTITY fig13 SYSTEM "fig13.tiff" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" "">
+]>
+<?Pub Inc?>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+<identAndStatusSection>
+<dmAddress><dmIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A"
+infoCode="000" infoCodeVariant="0" itemLocationCode="A"
+modelIdentCode="SPARTAN" subSubSystemCode="0" subSystemCode="0"
+systemCode="00" systemDiffCode="AAA"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="000"/></dmIdent><dmAddressItems>
+<issueDate day="08" month="03" year="2025"/>
+<dmTitle>
+<techName>SPARTAN-ST<?Pub _newline?></techName>
+<infoName>Troubleshooting</infoName>
+</dmTitle><?Pub Caret -2?></dmAddressItems></dmAddress>
+<dmStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany></responsiblePartnerCompany>
+<originator></originator>
+<applic><assert applicPropertyType="prodattr"
+applicPropertyValues="SPARTAN"></assert></applic>
+<brexDmRef><dmRef><dmRefIdent><dmCode assyCode="00" disassyCode="05"
+disassyCodeVariant="00" infoCode="000" infoCodeVariant="A"
+itemLocationCode="A" modelIdentCode="SPARTAN" subSubSystemCode="0"
+subSystemCode="0" systemCode="00" systemDiffCode="AAA"/></dmRefIdent>
+</dmRef></brexDmRef>
+<qualityAssurance><firstVerification verificationType="ttandoo"/>
+</qualityAssurance></dmStatus>
+</identAndStatusSection>
+<content>
+<description><levelledPara><title>Troubleshooting</title>
+<para>The procedures below will help address basic problems that may
+arise with the unit. If your equipment malfunction is not listed here,
+or the actions listed do not correct the fault, please contact Tonbo
+Support Staff at +91-80- 41999555/support@tonboimaging.com</para>
+<table><title>Common Troubleshooting Scenarios</title>
+<tgroup cols="4">
+<?PubTbl tgroup dispwid="1469.00px"?>
+<colspec colname="col1" colwidth="0.39*"/><colspec colname="col2"
+colwidth="0.82*"/><colspec colname="col3" colwidth="1.24*"/><colspec
+colname="col4" colwidth="1.40*"/>
+<tbody>
+<row>
+<entry><para>S. No.</para>
+</entry>
+<entry><para>Problems</para>
+</entry>
+<entry><para>Probable Causes</para>
+</entry>
+<entry><para>Solutions</para>
+</entry>
+</row>
+<row>
+<entry><para>1</para>
+</entry>
+<entry><para>Not Powering On</para>
+</entry>
+<entry><para>Battery installed in incorrect orientation</para>
+<para>Battery is not charged or faulty</para>
+<para>Battery cap not properly closed</para>
+<para>Battery terminals oxidized/require cleaning.</para>
+<para>Lens cap on</para>
+</entry>
+<entry><para>Insert the battery as per polarity marking on the battery
+chamber.</para>
+<para>Recharge the battery or replace it with a new one.</para>
+<para>Close and secure the battery compartment cap by turning it clockwise
+until tight.</para>
+<para>Clean the battery terminals with a clean cotton cloth.</para>
+<para>Remove the lens cap and check the display on the unit.</para>
+</entry>
+</row>
+<row>
+<entry><para>2</para>
+</entry>
+<entry><para>No Video Output</para>
+</entry>
+<entry><para>Incorrect Image settings – Brightness set to very low,
+and contrast set to very high</para>
+<para>System Powered Off</para>
+</entry>
+<entry><para>Adjust brightness/contrast settings by navigating to
+Menu > brightness/contrast and check the display on the unit</para>
+<para>or</para>
+<para>Use load factory settings</para>
+<para>Power on the system using the power button</para>
+</entry>
+</row>
+<row>
+<entry><para>3</para>
+</entry>
+<entry><para>Image Freezing</para>
+</entry>
+<entry><para>NUC was performed without the lens cap</para>
+<para>Issue with brightness/Contrast configuration</para>
+<para>Issue with display brightness/contrast configuration</para>
+</entry>
+<entry><para>Cover the lens with the lens cap and press the Menu button
+twice to perform NUC.</para>
+<para>Adjust image clarity by navigating to Menu > Brightness/Contrast</para>
+<para>Adjust display brightness/contrast by navigating to Menu > Display
+> Brightness/Contrast</para>
+</entry>
+</row>
+<row>
+<entry><para>4</para>
+</entry>
+<entry><para>Image Clarity Issues</para>
+</entry>
+<entry><para>Improper diopter adjustment</para>
+<para>Improper focus ring adjustment</para>
+<para>Check for dirt/grime on lens</para>
+<para>Check for physical damage or scratches on lens</para>
+<para>Excessive humidity and condensation</para>
+</entry>
+<entry><para>Visually check for cleanliness, scratches, cuts, tears,
+dirt, and foreign material. Check for proper cap fitting.</para>
+</entry>
+</row>
+<row>
+<entry><para>5</para>
+</entry>
+<entry><para>Menu not seen</para>
+</entry>
+<entry><para>Eye Guard</para>
+</entry>
+<entry><para>Visually check for cuts, tears, dirt, torn, bent or improperly
+fitting eye cup.</para>
+</entry>
+</row>
+<row>
+<entry><para>6</para>
+</entry>
+<entry><para>Battery drains quickly</para>
+</entry>
+<entry><para>Wrong control button used</para>
+<para>Battery age</para>
+<para>Reticle is disabled</para>
+</entry>
+<entry><para>Use the Menu button to display the menu.</para>
+<para>Replace battery with a new one</para>
+<para>Enable the reticle from the menu</para>
+</entry>
+</row>
+<row>
+<entry><para>7</para>
+</entry>
+<entry><para>Reticle not visible</para>
+</entry>
+<entry><para>Reticle color and subject in the scene are same – e.g.
+white reticle on white background</para>
+<para>Display brightness is set too high/low</para>
+<para>Lens cap on</para>
+</entry>
+<entry><para>Change the reticle color, if target and background are
+the same/similar color</para>
+<para>Adjust display brightness/contrast by navigating to Menu > Display
+> Brightness/Contrast and check the reticle visibility</para>
+<para>Remove the lens cap and check the display.</para>
+</entry>
+</row>
+<row>
+<entry><para>8</para>
+</entry>
+<entry><para>Display on but no thermal image</para>
+</entry>
+<entry><para>Focus not adjusted for the viewing distance</para>
+<para>NUC required</para>
+<para>Battery cap not secured tight</para>
+</entry>
+<entry><para>Adjust the lens focus ring to bring the scene in focus
+as per the required distance</para>
+<para>Cover the lens with the lens cap and press the menu button twice
+to perform NUC</para>
+<para>Close and secure the battery compartment cap by turning the
+compartment cap clockwise until tight.</para>
+</entry>
+</row>
+<row>
+<entry><para>9</para>
+</entry>
+<entry><para>Flickering display</para>
+</entry>
+<entry><para>Low battery</para>
+<para>Faulty display unit or connection</para>
+</entry>
+<entry><para>Check the battery percentage and recharge the battery
+or replace it with a new one.</para>
+<para>Restart the system and check</para>
+</entry>
+</row>
+<row>
+<entry><para>10</para>
+</entry>
+<entry><para>Overheating of the system</para>
+</entry>
+<entry><para>Prolonged use in high temperature environment</para>
+<para>Battery issue</para>
+</entry>
+<entry><para>Avoid leaving the system exposed to direct sun / any
+high temperature environment and allow for cooling time.</para>
+<para>Replace the battery with a new one.</para>
+</entry>
+</row>
+<row>
+<entry><para>11</para>
+</entry>
+<entry><para>Unstable weapon mounting</para>
+</entry>
+<entry><para>A loose or incorrectly fitted weapon mount adapter on
+the weapon</para>
+</entry>
+<entry><para>Ensure weapon mount adapter is tightly secured.</para>
+</entry>
+</row>
+<row>
+<entry><para>12</para>
+</entry>
+<entry><para>Sight alignment problems</para>
+</entry>
+<entry><para>Sight not aligned properly with the weapon</para>
+</entry>
+<entry><para>Check mounting to ensure no loose mounts, which can affect
+accuracy. Also check reticle adjustment and zeroing before operation.</para>
+</entry>
+</row>
+<row>
+<entry><para>13</para>
+</entry>
+<entry><para>Display not moving in clip-on mode</para>
+</entry>
+<entry><para>Power On Inspection</para>
+</entry>
+<entry><para>Check sight configuration settings under advanced menu
+options and correct it to clip-on configuration.</para>
+</entry>
+</row>
+<row>
+<entry><para>14</para>
+</entry>
+<entry><para>Reticle is moving in clip-on mode</para>
+</entry>
+<entry><para>Incorrect parallax correction</para>
+</entry>
+<entry><para>To resolve this issue, do parallax correction in clip-on
+configuration as per instructions mentioned in section 3.2.2.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table></levelledPara></description>
+</content>
+</dmodule>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Stylesheet-DESCRIPT.fos" type="text/x-fosi" media="editor" alternate="yes"?>
+<!--Arbortext, Inc., 1988-2020, v.4002-->
+<!DOCTYPE dmodule [
+<!ENTITY Fig23-PNGC-SEC5 SYSTEM "Fig23-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig24-PNGC-SEC5 SYSTEM "Fig24-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig25-PNGC-SEC5 SYSTEM "Fig25-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig26-PNGC-SEC5 SYSTEM "Fig26-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig27-PNGC-SEC5 SYSTEM "Fig27-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig28-PNGC-SEC5 SYSTEM "Fig28-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig29-PNGC-SEC5 SYSTEM "Fig29-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig29-1-PNGC-SEC5 SYSTEM "Fig29-1-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig30-PNGC-SEC5 SYSTEM "Fig30-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig31-PNGC-SEC5 SYSTEM "Fig31-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig32-PNGC-SEC5 SYSTEM "Fig32-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig33-PNGC-SEC5 SYSTEM "Fig33-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig34-PNGC-SEC5 SYSTEM "Fig34-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig35-PNGC-SEC5 SYSTEM "Fig35-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig36-PNGC-SEC5 SYSTEM "Fig36-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig37-PNGC-SEC5 SYSTEM "Fig37-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig38-PNGC-SEC5 SYSTEM "Fig38-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig39-PNGC-SEC5 SYSTEM "Fig39-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig40-PNGC-SEC5 SYSTEM "Fig40-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig41-PNGC-SEC5 SYSTEM "Fig41-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig42-PNGC-SEC5 SYSTEM "Fig42-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig43-PNGC-SEC5 SYSTEM "Fig43-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY Fig44-PNGC-SEC5 SYSTEM "Fig44-PNGC-SEC5.tif" NDATA cgm>
+<!ENTITY fig1 SYSTEM "fig1.tiff" NDATA cgm>
+<!ENTITY fig2 SYSTEM "fig2.tiff" NDATA cgm>
+<!ENTITY fig3 SYSTEM "fig3.tiff" NDATA cgm>
+<!ENTITY fig4 SYSTEM "fig4.tiff" NDATA cgm>
+<!ENTITY fig5 SYSTEM "fig5.tiff" NDATA cgm>
+<!ENTITY fig6 SYSTEM "fig6.tiff" NDATA cgm>
+<!ENTITY fig7 SYSTEM "fig7.tiff" NDATA cgm>
+<!ENTITY fig8 SYSTEM "fig8.tiff" NDATA cgm>
+<!ENTITY fig9 SYSTEM "fig9.tiff" NDATA cgm>
+<!ENTITY fig10 SYSTEM "fig10.tiff" NDATA cgm>
+<!ENTITY fig11 SYSTEM "fig11.tiff" NDATA cgm>
+<!ENTITY fig12 SYSTEM "fig12.tiff" NDATA cgm>
+<!ENTITY fig13 SYSTEM "fig13.tiff" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" "">
+]>
+<?Pub Inc?>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+<identAndStatusSection>
+<dmAddress><dmIdent>
+<dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A"
+infoCode="000" infoCodeVariant="0" itemLocationCode="A"
+modelIdentCode="SPARTAN" subSubSystemCode="0" subSystemCode="0"
+systemCode="00" systemDiffCode="AAA"/>
+<language countryIsoCode="US" languageIsoCode="en"/>
+<issueInfo inWork="00" issueNumber="000"/></dmIdent><dmAddressItems>
+<issueDate day="08" month="03" year="2025"/>
+<dmTitle>
+<techName>SPARTAN-ST<?Pub _newline?></techName>
+<infoName>Storage Instructions</infoName>
+</dmTitle><?Pub Caret -2?></dmAddressItems></dmAddress>
+<dmStatus>
+<security securityClassification="01"/>
+<responsiblePartnerCompany></responsiblePartnerCompany>
+<originator></originator>
+<applic><assert applicPropertyType="prodattr"
+applicPropertyValues="SPARTAN-ST"></assert></applic>
+<brexDmRef><dmRef><dmRefIdent><dmCode assyCode="00" disassyCode="05"
+disassyCodeVariant="00" infoCode="000" infoCodeVariant="A"
+itemLocationCode="A" modelIdentCode="SPARTAN" subSubSystemCode="0"
+subSystemCode="0" systemCode="00" systemDiffCode="AAA"/></dmRefIdent>
+</dmRef></brexDmRef>
+<qualityAssurance><firstVerification verificationType="ttandoo"/>
+</qualityAssurance></dmStatus>
+</identAndStatusSection>
+<content>
+<description><levelledPara><title>Storage Instructions</title>
+<para>The following should be ensured for the storage of the goods:<sequentialList>
+<listItem><para>Ensure the sight is cleaned as per cleaning instructions
+received in the maintenance manual.</para>
+</listItem>
+<listItem><para>Ensure the sight does not have any battery inside.</para>
+</listItem>
+<listItem><para>Store and transport the unit only in its hard case.</para>
+</listItem>
+<listItem><para>For extended storage, wipe the device housing, clean
+the optical surfaces and store in the rugged case supplied.</para>
+</listItem>
+<listItem><para>Although the equipment is tested to withstand storage
+temperatures and humidity conditions as per JSS 5855-11-2019, for
+prolonged life of the equipment we recommend you do not store it in
+extreme temperatures for long periods. The ideal recommended temperature
+for extended storage is 20 degrees and 40% RH in a controlled environment
+or in a storage chamber, if available</para>
+</listItem>
+</sequentialList></para>
+</levelledPara><levelledPara><title>Battery Storage Guidelines</title>
+<levelledPara><title>Charging Levels</title>
+<para>It is essential to store the battery with approximately 30%
+charge to optimize longevity and performance.</para>
+</levelledPara><levelledPara><title>Charge Monitoring</title>
+<para>Check the battery charge level during periodic maintenance to
+ensure the battery does not deplete below the optimal 30%. Recharge
+if necessary.</para>
+</levelledPara></levelledPara></description>
+</content>
+</dmodule>
